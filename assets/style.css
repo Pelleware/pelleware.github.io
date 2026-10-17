@@ -36,15 +36,10 @@ main { padding: 56px 0 24px; }
 .map .block { fill: var(--block); }
 .map .walked {
   stroke: var(--accent); stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; fill: none;
-  stroke-dasharray: 1; stroke-dashoffset: 1; animation: walk 5s ease-in-out 0.4s forwards;
 }
-.map .you { fill: var(--accent); opacity: 0; animation: appear 0.3s ease 5.3s forwards; }
-@keyframes walk { to { stroke-dashoffset: 0; } }
-@keyframes appear { to { opacity: 1; } }
-@media (prefers-reduced-motion: reduce) {
-  .map .walked { animation: none; stroke-dashoffset: 0; }
-  .map .you { animation: none; opacity: 1; }
-}
+.map .you { fill: var(--accent); }
+.map .you-ring { fill: var(--accent); opacity: 0.18; }
+.map .start { fill: var(--bg); stroke: var(--accent); stroke-width: 4; }
 .how h2 { font-size: 15px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 12px; }
 .how p { margin: 0 0 18px; }
 .how strong { font-weight: 600; }
