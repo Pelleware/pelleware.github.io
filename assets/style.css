@@ -1,11 +1,11 @@
 :root {
   --bg: #fbfaf7; --text: #1b2421; --muted: #66716d; --line: #e4e2dc;
-  --accent: #006e4d; --street: #ffffff; --block: #eceae4; --ground: #f4f3ee; --water: #cfe3ea; --park: #dcebdc;
+  --accent: #006e4d;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0f1a1f; --text: #e6ece9; --muted: #8e9c97; --line: #23343b;
-    --accent: #45dba8; --street: #23353c; --block: #16262c; --ground: #122026; --water: #173640; --park: #17302a;
+    --accent: #45dba8;
   }
 }
 * { box-sizing: border-box; }
@@ -30,19 +30,7 @@ main { padding: 56px 0 24px; }
 /* Home */
 .lede { font-size: 40px; line-height: 1.12; font-weight: 600; letter-spacing: -0.025em; margin: 0 0 18px; max-width: 13em; }
 .intro { font-size: 19px; color: var(--muted); margin: 0 0 8px; max-width: 30em; }
-.soon { font-size: 15px; color: var(--muted); margin: 0; }
-.map { display: block; width: 100%; height: auto; margin: 44px 0 48px; border-radius: 14px; overflow: hidden; }
-.map .street { stroke: var(--street); stroke-width: 12; stroke-linecap: round; fill: none; }
-.map .block { fill: var(--block); }
-.map .ground { fill: var(--ground); }
-.map .water { fill: var(--water); }
-.map .park { fill: var(--park); }
-.map .walked {
-  stroke: var(--accent); stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; fill: none;
-}
-.map .you { fill: var(--accent); }
-.map .you-ring { fill: var(--accent); opacity: 0.18; }
-.map .start { fill: var(--bg); stroke: var(--accent); stroke-width: 4; }
+.soon { font-size: 15px; color: var(--muted); margin: 0 0 48px; }
 .how h2 { font-size: 15px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 12px; }
 .how p { margin: 0 0 18px; }
 .how strong { font-weight: 600; }
