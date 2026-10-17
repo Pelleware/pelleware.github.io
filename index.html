@@ -1,14 +1,25 @@
 ---
 layout: default
 ---
-<section class="hero">
-  <img src="assets/icon.png" alt="Walkabout app icon">
-  <h1>Walkabout</h1>
-  <p>Every street you walk turns green, until you've walked your whole city.</p>
-  <span class="badge">Coming soon for iPhone</span>
+<h1 class="lede">Walk every street in your city.</h1>
+<p class="intro">Walkabout is an iPhone app that turns the streets you walk green. Start a walk, go wherever you like, and watch your city fill in, one street at a time.</p>
+<p class="soon">Coming to the App Store.</p>
+
+<svg class="map" viewBox="0 0 600 300" role="img" aria-label="A drawing of a few city blocks with a walked route in green">
+  <rect class="block" x="22" y="22" width="156" height="96" rx="6"/>
+  <rect class="block" x="222" y="22" width="156" height="96" rx="6"/>
+  <rect class="block" x="422" y="22" width="156" height="96" rx="6"/>
+  <rect class="block" x="22" y="162" width="156" height="116" rx="6"/>
+  <rect class="block" x="222" y="162" width="156" height="116" rx="6"/>
+  <rect class="block" x="422" y="162" width="156" height="116" rx="6"/>
+  <path class="street" d="M0 140 H600 M200 0 V300 M400 0 V300 M0 4 H600 M0 296 H600 M4 0 V300 M596 0 V300"/>
+  <path class="walked" d="M4 296 V140 H200 V4 H400 V140 H596"/>
+  <circle class="you" cx="596" cy="140" r="9"/>
+</svg>
+
+<section class="how">
+  <h2>How it works</h2>
+  <p><strong>Walk.</strong> Tap Start walk and put your phone in your pocket. Either side of the street counts, and your route is only recorded while a walk is running.</p>
+  <p><strong>Fill in your areas.</strong> Your city is split into areas. Walk every street in one to complete it, then move on to the next. Leave out the areas you'll never walk, and your percentage only counts the rest.</p>
+  <p><strong>Keep it yours.</strong> There's no account and no server. Your walks stay on your iPhone, and you can back them up to Files whenever you like.</p>
 </section>
-<div class="features">
-  <div class="feature"><h3><span class="dot"></span>Just walk</h3><p>Start a walk and go. Either side of the street counts.</p></div>
-  <div class="feature"><h3><span class="dot"></span>Area by area</h3><p>Complete every street in an area, then the next, until the city is done.</p></div>
-  <div class="feature"><h3><span class="dot"></span>Private by design</h3><p>No account, no tracking outside your walks. Your walks stay on your iPhone.</p></div>
-</div>
