@@ -31,12 +31,12 @@ main { padding: 56px 0 24px; }
 .lede { font-size: 40px; line-height: 1.12; font-weight: 600; letter-spacing: -0.025em; margin: 0 0 18px; max-width: 13em; }
 .intro { font-size: 19px; color: var(--muted); margin: 0 0 8px; max-width: 30em; }
 .soon { font-size: 15px; color: var(--muted); margin: 0; }
-.map { display: block; width: 100%; height: auto; margin: 44px 0 48px; }
+.map { display: block; width: 100%; height: auto; margin: 44px 0 48px; border-radius: 14px; overflow: hidden; }
 .map .street { stroke: var(--street); stroke-width: 7; stroke-linecap: round; fill: none; }
 .map .block { fill: var(--block); }
 .map .walked {
   stroke: var(--accent); stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; fill: none;
-  stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: walk 5s ease-in-out 0.4s forwards;
+  stroke-dasharray: 1; stroke-dashoffset: 1; animation: walk 5s ease-in-out 0.4s forwards;
 }
 .map .you { fill: var(--accent); opacity: 0; animation: appear 0.3s ease 5.3s forwards; }
 @keyframes walk { to { stroke-dashoffset: 0; } }
