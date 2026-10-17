@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.url == "/" %}Walkabout{% else %}{{ page.title | default: "Walkabout" }} · Walkabout{% endif %}</title>
+  <meta name="description" content="Walkabout turns every street you walk green, until you've walked your whole city.">
+  <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/icon.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/icon.png' | relative_url }}" alt="" width="32" height="32">Walkabout</a>
+    <nav>
+      <a href="{{ '/support' | relative_url }}"{% if page.url contains 'support' %} aria-current="page"{% endif %}>Support</a>
+      <a href="{{ '/privacy' | relative_url }}"{% if page.url contains 'privacy' %} aria-current="page"{% endif %}>Privacy</a>
+      <a href="{{ '/map-data' | relative_url }}"{% if page.url contains 'map-data' %} aria-current="page"{% endif %}>Map data</a>
+    </nav>
+  </header>
+  <main class="{% if page.url == '/' %}home{% else %}doc{% endif %}">
+    {{ content }}
+  </main>
+  <footer>
+    <p>© Pelleware · <a href="mailto:pelleware@gmail.com">pelleware@gmail.com</a></p>
+    <p>Street data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>.</p>
+  </footer>
+</body>
+</html>

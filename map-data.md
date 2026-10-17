@@ -1,3 +1,7 @@
+---
+title: Map Data
+---
+
 # Walkabout Map Data
 
 Walkabout's street networks are derived from [OpenStreetMap](https://www.openstreetmap.org/copyright) data, © OpenStreetMap contributors, and are made available under the [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/).

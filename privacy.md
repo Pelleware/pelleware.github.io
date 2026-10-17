@@ -1,3 +1,7 @@
+---
+title: Privacy Policy
+---
+
 # Walkabout Privacy Policy
 
 *Last updated: 17 October 2026*
