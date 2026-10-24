@@ -43,4 +43,4 @@ Walkabout collects no data about you. Read the [privacy policy](privacy.md).
 
 ## Map data
 
-Street data © OpenStreetMap contributors, available under the Open Database License (ODbL). Map background by Apple Maps.
+Street data © OpenStreetMap contributors, available under the Open Database License (ODbL). Map background by Apple Maps. Area sources and downloads of the street data: [Map data](map-data.md).
