@@ -14,6 +14,7 @@
     <header>
       <a class="brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/icon.png' | relative_url }}" alt="" width="28" height="28">Walkabout</a>
       <nav>
+        <a href="{{ '/features' | relative_url }}"{% if page.url contains 'features' %} aria-current="page"{% endif %}>Features</a>
         <a href="{{ '/support' | relative_url }}"{% if page.url contains 'support' %} aria-current="page"{% endif %}>Support</a>
         <a href="{{ '/privacy' | relative_url }}"{% if page.url contains 'privacy' %} aria-current="page"{% endif %}>Privacy</a>
         <a href="{{ '/map-data' | relative_url }}"{% if page.url contains 'map-data' %} aria-current="page"{% endif %}>Map data</a>
