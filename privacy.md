@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Walkabout Privacy Policy
 
-*Last updated: 17 October 2026*
+*Last updated: 25 October 2026*
 
 Walkabout is made to keep your walks to yourself. In short: **we don't collect any data about you.** There is no account, no server, no analytics and no advertising. Everything Walkabout records stays on your iPhone.
 
@@ -15,6 +15,8 @@ Walkabout is made to keep your walks to yourself. In short: **we don't collect a
 **Your walks and progress.** Routes, distances, the streets you've covered, your weekly goal and your settings are stored on your iPhone in Walkabout's own storage. They are never sent to us or anyone else.
 
 **Motion activity, only during a walk.** Walkabout uses your iPhone's motion data to stop recording when it detects cycling or travel in a vehicle. This data isn't stored.
+
+**Your country, to suggest your city.** When you first open Walkabout, it looks at your App Store country (or your iPhone's region) on your iPhone to show your country's cities first. It's only used on your iPhone and never sent anywhere.
 
 ## Things that only happen when you choose them
 
