@@ -25,7 +25,7 @@ Walkabout gør gaderne grønne når du går dem. Målet er at gå hele din by. H
 
 **Se din by blive grøn.** Kortet viser de gader du har gået i grønt. Ruten for din tur bliver tegnet mens du går.
 
-**Se hvad der mangler.** Vis de resterende gader. Så kan du se præcis hvilke du ikke har gået endnu.
+**Se hvad der mangler.** Tryk på Mangler på kortet. Så kan du se præcis hvilke gader du ikke har gået endnu.
 
 **Kun offentlige gader og stier.** Kortet viser de gader og stier du kan gå på. Der er én linje pr. gade, og kortet bygger på OpenStreetMap. Følg altid skiltene. Spring alt over der er privat eller usikkert.
 
@@ -35,9 +35,9 @@ Walkabout gør gaderne grønne når du går dem. Målet er at gå hele din by. H
 
 **Vælg de områder der tæller.** Kommer du aldrig i et område, kan du slå det fra. Så tæller din procent, dine milepæle, widgets og Siri kun resten. Ture andre steder bliver stadig optaget. Slår du området til igen, kommer dine fremskridt tilbage.
 
-**Afrundingshjælp.** Nogle gader kan man bare ikke gå. Når et område er 95 % færdigt, kan Afrundingshjælp gøre det færdigt for dig. Den er slået fra indtil du slår den til.
+**Sidste skub.** Nogle gader kan man bare ikke gå. Når et område er 95 % færdigt, kan Sidste skub gøre det færdigt for dig. Det er slået fra indtil du slår det til.
 
-**Nulstil fremskridt.** Har du gået et område til 100 %? Så kan du nulstille det og gå det igen. Walkabout tæller hvor mange gange du har fuldført hvert område. Du beholder altid dine ture, din historik og din statistik.
+**Start forfra.** Har du gået et område til 100 %? Så kan du starte forfra og gå det igen. Walkabout tæller hvor mange gange du har fuldført hvert område. Du beholder altid dine ture, din historik og din statistik.
 
 ## Mål og fejringer
 
@@ -67,7 +67,7 @@ Walkabout gør gaderne grønne når du går dem. Målet er at gå hele din by. H
 
 ## Låseskærm, widgets og Kontrolcenter
 
-**Live Activity.** Under en tur kan du se tid, distance og nyt terræn på låseskærmen og i Dynamic Island. Tallene følger med mens du går.
+**Tur på låseskærmen.** Under en tur kan du se tid, distance og nyt terræn på låseskærmen og i Dynamic Island. Tallene følger med mens du går.
 
 **Widgets til hjemmeskærmen.** *Start tur* viser dit nye terræn for nylig og starter en tur med ét tryk. *Denne uge* viser ugens ture. Tryk på en dag for at se den.
 

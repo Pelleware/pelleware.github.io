@@ -30,7 +30,7 @@ Dine ture ligger kun på din iPhone. Gem en backup i Arkiver eller iCloud Drive 
 Så stopper turen. Det du nåede at gå, er gemt. Walkabout fortæller dig om det næste gang du åbner appen. Lad Walkabout køre i baggrunden hvis den skal blive ved med at optage. Det er fint at låse skærmen.
 
 **Kan jeg gå alle gaderne på kortet?**
-Kortet viser offentlige gader og stier. Men oplysningerne om adgang er ikke altid helt rigtige. Følg altid skiltene, og spring alt over der er privat eller usikkert. Kan du ikke nå de sidste gader i et område, kan Afrundingshjælp i Indstillinger gøre det færdigt.
+Kortet viser offentlige gader og stier. Men oplysningerne om adgang er ikke altid helt rigtige. Følg altid skiltene, og spring alt over der er privat eller usikkert. Kan du ikke nå de sidste gader i et område, kan Sidste skub i Indstillinger gøre det færdigt.
 
 **Skal jeg have en konto eller internet?**
 Du skal ikke have en konto. Baggrundskortet kommer fra Apple Kort og skal bruge internet for at blive vist. Dine ture bliver optaget uanset hvad.
