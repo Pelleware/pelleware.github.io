@@ -88,7 +88,7 @@ Walkabout turns every street you walk green, until you've walked your whole city
 
 ## Cities, languages and settings
 
-**Four cities.** Copenhagen and Frederiksberg, Aarhus, Odense and Manhattan. Each city keeps its own progress, so you can switch and come back.
+**Two cities.** Copenhagen and Frederiksberg, and Aarhus. More cities are on the way. Each city keeps its own progress, so you can switch and come back.
 
 **Map updates keep your progress.** When a city's map is improved, your walks are replayed onto the new map automatically.
 

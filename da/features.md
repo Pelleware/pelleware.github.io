@@ -89,7 +89,7 @@ Walkabout gør gaderne grønne når du går dem, og målet er at gå hele din by
 
 ## Byer, sprog og indstillinger
 
-**Fire byer.** København og Frederiksberg, Aarhus, Odense og Manhattan. Hver by har sine egne fremskridt, så du kan skifte by og komme tilbage igen.
+**To byer.** København og Frederiksberg og Aarhus. Flere byer er på vej. Hver by har sine egne fremskridt, så du kan skifte by og komme tilbage igen.
 
 **Du beholder dine fremskridt når kortet bliver opdateret.** Bliver en bys kort forbedret, lægger Walkabout selv dine ture over på det nye kort.
 
